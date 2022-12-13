@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Kérdőív</title>
-<p> Mi a League of Legends első karaktere ABC sorrendben? </p>
-<input type="text" id="valastEgy">
-
-
 </head>
 <body>
+<form onsubmit="return(elsovalasz())">
+<p> Mi a League of Legends első karaktere ABC sorrendben? </p>
+<input type="text" id="valastEgy">
+<input type="submit" value="Submit">
+</form>
+
+<p id="ide_irj"></p>
 </body>
 <script src="script.js"></script>
 </html>
