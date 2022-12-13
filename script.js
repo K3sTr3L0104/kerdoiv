@@ -12,13 +12,13 @@ function elsovalasz() {
 
 
     function masodikvalasz() {
-        var userValasz = document.getElementById("valastKetto").value;
-        var leaderValasz = "Aatrox";
+        var userValasz = document.getElementById("valaszKetto").value;
+        var leaderValasz = "Fizz";
         if (userValasz == leaderValasz) {
-        document.getElementById("ide_irj").innerHTML = "Gratulálunk! Kitaláltad a karaktert! Mehetsz a következő kérdésre:)";
+        document.getElementById("ValaszMegjelenites").innerHTML = "Gratulálunk! Kitaláltad a karaktert! Mehetsz a következő kérdésre:)";
         }
         else {
-        document.getElementById("ide_irj").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
+        document.getElementById("ValaszMegjelenites").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
         }
         return false
     }
