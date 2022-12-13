@@ -35,3 +35,14 @@ function elsovalasz() {
             }
             return false
     }
+function negyedikvalasz() {
+    var userValasz = document.getElementById("valaszNegy").value;
+    var leaderValasz = "Kha zix";
+    if (userValasz == leaderValasz) {
+    document.getElementById("ValaszMegjelenites4").innerHTML = "Gratulálunk! Kitaláltad a karaktert! Mehetsz a következő kérdésre:)";
+    }
+    else {
+    document.getElementById("ValaszMegjelenites4").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
+    }
+    return false
+}
