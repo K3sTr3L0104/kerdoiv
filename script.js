@@ -57,3 +57,14 @@ function otodikvalasz() {
     }
     return false
 }
+function hatodikvalasz() {
+    var userValasz = document.getElementById("valaszHat").value;
+    var leaderValasz = "Vayne";
+    if (userValasz == leaderValasz) {
+    document.getElementById("ValaszMegjelenites6").innerHTML = "Gratulálunk! A teszt végére értél!";
+    }
+    else {
+    document.getElementById("ValaszMegjelenites6").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
+    }
+    return false
+}
