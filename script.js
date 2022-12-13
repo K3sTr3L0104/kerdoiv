@@ -9,3 +9,14 @@ function elsovalasz() {
     }
     return false
 }
+function masodikValasz() {
+    var userValasz = document.getElementById("valaszKetto").value;
+    var leaderValasz = "Fizz";
+    if (userValasz == leaderValasz) {
+    document.getElementById("ide_irj").innerHTML = "Gratulálunk! Kitaláltad a karaktert! Mehetsz a következő kérdésre:)";
+    }
+    else {
+    document.getElementById("ide_irj").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
+    }
+    return false
+}
