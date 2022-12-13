@@ -46,3 +46,14 @@ function negyedikvalasz() {
     }
     return false
 }
+function otodikvalasz() {
+    var userValasz = document.getElementById("valastOt").value;
+    var leaderValasz = "Cho'Gath";
+    if (userValasz == leaderValasz) {
+    document.getElementById("ValaszMegjelenites5").innerHTML = "Gratulálunk! Kitaláltad a karaktert! Mehetsz a következő kérdésre:)";
+    }
+    else {
+    document.getElementById("ValaszMegjelenites5").innerHTML = "Sajnálom, a válasz nem helyes. Próbáld újra!";
+    }
+    return false
+}
